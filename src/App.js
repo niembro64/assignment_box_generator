@@ -6,10 +6,11 @@ import Box from "./components/Box";
 function App() {
   return (
     <div className="App">
-      <Box color="green" />
-      <Box color="blue" />
-      <Box color="orange" />
-      <Box color="red" />
+      <Box coo="green" />
+      <Box coo="blue" />
+      <Box coo="orange" />
+      <Box coo="red" />
+      <Box coo="yellow" />
     </div>
   );
 }
