@@ -6,13 +6,13 @@ import { render } from "@testing-library/react";
 const Box = (props) => {
 
   const colorStyle = {
-    backgroundColor: props.coo,
+    backgroundColor: props.color,
   };
 
   return (
     <div className="box" style={colorStyle}>
       <h1>Box</h1>
-      <h2>{props.coo}</h2>
+      <h2>{props.color}</h2>
     </div>
   );
 };
