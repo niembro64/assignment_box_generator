@@ -4,7 +4,7 @@ import { useState } from "react";
 import Box from "./components/Box";
 
 function App() {
-  const [group, setGroup] = useState(["red", "green", "blue"]);
+  const [group, setGroup] = useState(["magenta","cyan","yellow"]);
   const [form, setForm] = useState("");
 
   const onSubmitHandler = (event) => {
